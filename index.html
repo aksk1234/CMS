@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>あのねちゃんねる</title>
+    <link type="text/css" rel="stylesheet" href="css.css">
+    <script src="js.js"> </script>
+    <!-- sound -->
+<div onclick="play()">
+    <audio id='audio_play' src='click2.mp3'>
+    </audio> 
+    <script type="text/javascript"> 
+    function play() { 
+        var audio = document.getElementById('audio_play'); 
+        if (audio.paused) { 
+            audio.play(); 
+        }else{ 
+            audio.pause(); 
+            audio.currentTime = 0 
+        } 
+    } 
+    </script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>あのねちゃんねる</h1>
+        <input list="options" id="search" placeholder="">
+        <datalist id="options">
+            <option value="日本語">
+            <option value="한국어">
+        </datalist>
+        <br><br>
+        <button id="submitBtn">送信</button>
+    </div>
+
+    <script>
+        document.getElementById('submitBtn').addEventListener('click', function() {
+            const searchValue = document.getElementById('search').value;
+            console.log('Selected value:', searchValue);
+            if (searchValue === '日本語') {
+                window.location.href = 'jp.html';
+            } else if (searchValue === '한국어') {
+                window.location.href = 'kr.html';
+        }
+    })
+    </script>
+</body>
+</html>

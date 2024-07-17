@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>あのねちゃんねる</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+        <!-- sound -->
+<div onclick="play()">
+    <audio id='audio_play' src='click2.mp3'>
+    </audio> 
+    <script type="text/javascript"> 
+    function play() { 
+        var audio = document.getElementById('audio_play'); 
+        if (audio.paused) { 
+            audio.play(); 
+        }else{ 
+            audio.pause(); 
+            audio.currentTime = 0 
+        } 
+    } 
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo">あのねちゃんねる</h1>
+        </header>
+        <div class="content-wrapper">
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="handleClick('Home')">Home</a></li>
+                    <li><a href="#" onclick="handleClick('About')">About</a></li>
+                    <li><a href="#" onclick="handleClick('Contact')">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section class="gallery">
+                    <img src="1.jpg" alt="이미지 1">
+                    <img src="1.jpg" alt="이미지 2">
+                    <img src="1.jpg" alt="이미지 3">
+                    <img src="1.jpg" alt="이미지 4">
+                    <img src="1.jpg" alt="이미지 5">
+                    <img src="1.jpg" alt="이미지 6">
+                    <img src="1.jpg" alt="이미지 7">
+                    <img src="1.jpg" alt="이미지 8">
+                    <img src="1.jpg" alt="이미지 9">
+                </section>
+                <section><br>
+                    <h2>Title</h2>
+                    <p>
+
+                            슬롯 2개로 운영됩니다. 예약은 받지 않습니다.
+                            작업 기간 입금일 기준 최대 40일, 무통보 지각의 경우 전액 환불+완성본 전달
+                            원본을 크게 해치지 않는 선에서 편집 가능. 굿즈 제작 가능.
+                            자료 누락으로 인한 수정 요청 시 추가금이 들어갑니다. (제 과실의 경우 추가금X)
+                            빠른 마감 추가금: 당일 x2, 1주 x1.5, 2주 x1.3 (일정에 따라 거절 가능성有)
+                            샘플 비공개의 경우 추가금이 존재합니다.
+                            3인의 경우 캔버스 크기의 조정이 들어갑니다. 1~3인 이외의 인원수 및 800x1100px 이상 사이즈의 경우 따로 문의 부탁드립니다.
+                            오브젝트의 경우 저작권 프리 이미지를 가공하거나 새로 그려 작업합니다.
+                            
+                            
+                            문의는 본 계정의 DM 또는 아래의 오픈채팅으로 받습니다.
+                    </p>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <p>&copy; anone</p>
+        </footer>
+    </div>
+</body>
+</html>
