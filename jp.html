@@ -5,22 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>あのねちゃんねる</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-        <!-- sound -->
-<div onclick="play()">
-    <audio id='audio_play' src='click2.mp3'>
-    </audio> 
-    <script type="text/javascript"> 
-    function play() { 
-        var audio = document.getElementById('audio_play'); 
-        if (audio.paused) { 
-            audio.play(); 
-        }else{ 
-            audio.pause(); 
-            audio.currentTime = 0 
-        } 
-    } 
-    </script>
+    <script src="jsjp.js" defer></script>
+    <!-- sound -->
+    <div onclick="play()">
+        <audio id='audio_play' src='click2.mp3'></audio> 
+        <script type="text/javascript"> 
+            function play() { 
+                var audio = document.getElementById('audio_play'); 
+                if (audio.paused) { 
+                    audio.play(); 
+                } else { 
+                    audio.pause(); 
+                    audio.currentTime = 0; 
+                } 
+            } 
+        </script>
+    </div>
 </head>
 <body>
     <div class="container">
@@ -29,41 +29,34 @@
         </header>
         <div class="content-wrapper">
             <nav>
-                <ul>
-                    <li><a href="#" onclick="handleClick('Home')">Home</a></li>
-                    <li><a href="#" onclick="handleClick('About')">About</a></li>
-                    <li><a href="#" onclick="handleClick('Contact')">Contact</a></li>
+                <ul id="stretch">
+                    <li><a href="#" onclick="handleClick('Home')">Home</a></li><br>
+                    <li><a href="#" onclick="handleClick('Guideline')">Guideline</a></li><br>
+                    <li><a href="#" onclick="handleClick('Contact')">Contact</a></li><br>
+                    <li><a href="#" onclick="handleClick('Commission')">Commission</a></li><br><br>
                 </ul>
             </nav>
             <main>
-                <section class="gallery">
-                    <img src="1.jpg" alt="이미지 1">
-                    <img src="1.jpg" alt="이미지 2">
-                    <img src="1.jpg" alt="이미지 3">
-                    <img src="1.jpg" alt="이미지 4">
-                    <img src="1.jpg" alt="이미지 5">
-                    <img src="1.jpg" alt="이미지 6">
-                    <img src="1.jpg" alt="이미지 7">
-                    <img src="1.jpg" alt="이미지 8">
-                    <img src="1.jpg" alt="이미지 9">
-                </section>
-                <section><br>
-                    <h2>「鉄血の情報局」特別企画　鉄華団プレイバック　オルフェンズ座談会　＜第4回＞</h2>
-                    <p>
+                <section class="profile-section">
+                    <img src="1.jpg" alt="Profile Image" class="profile-image">
+                    <div class="profile-content">
+                        <p>地上界に降りてきた落とし神です<br>
+もっともっと、たくさんのハンバーガーを食べられるように今日も頑張ります。<br><br>
 
-                        『機動戦士ガンダム 鉄血のオルフェンズ』「鉄血の情報局」特別企画
-                        “鉄華団プレイバック　オルフェンズ座談会”　第4回　＜全4回配信＞
-                        
-                        『機動戦士ガンダム 鉄血のオルフェンズ』完結を記念して、鉄華団ガンダムパイロット声優陣＜三日月・オーガス役の河西健吾さん、昭弘・アルトランド役の内匠靖明さん、ノルバ・シノ役の村田太志さん＞による、「鉄血の情報局」特別企画“鉄華団プレイバック　オルフェンズ座談会”が配信中！
-                        
-                        最終回となる第4回は、6月23日発売の『機動戦士ガンダム 鉄血のオルフェンズ 弐』Blu-ray＆DVD第8巻、第9巻について、３人が作品への思いを熱く語ります！
-                        ＜第8巻～第9巻収録話数：第46話「誰が為」、第47話「生け贄」、第48話「約束」、第49話「マクギリス・ファリド」、第50話「彼等の居場所」＞
-                    </p>
+職業: 落とし神<br>
+趣味: 美少女ゲーム、駆け魂捕獲<br>
+好きな食べ物: ハンバーガー
+
+                        </p>
+                    </div>
+                </section>
+                        </p>
+                    </div>
                 </section>
             </main>
         </div>
         <footer>
-            <p>&copy; 2024 My Dark Themed Blog</p>
+            <p>&copy; あのねちゃんねる</p>
         </footer>
     </div>
 </body>

@@ -1,41 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>あのねちゃんねる</title>
     <link type="text/css" rel="stylesheet" href="css.css">
-    <script src="js.js"> </script>
+    <script src="js.js"></script>
     <!-- sound -->
-<div onclick="play()">
-    <audio id='audio_play' src='click2.mp3'>
-    </audio> 
+    <div onclick="play()">
+        <audio id='audio_play' src='click2.mp3'></audio>
+    </div>
     <script type="text/javascript"> 
-    function play() { 
-        var audio = document.getElementById('audio_play'); 
-        if (audio.paused) { 
-            audio.play(); 
-        }else{ 
-            audio.pause(); 
-            audio.currentTime = 0 
-        } 
-    } 
+        function play() { 
+            var audio = document.getElementById('audio_play'); 
+            if (audio.paused) { 
+                audio.play(); 
+            } else { 
+                audio.pause(); 
+                audio.currentTime = 0; 
+            } 
+        }
     </script>
-
 </head>
 <body>
     <div class="container">
         <h1>あのねちゃんねる</h1>
-        <input list="options" id="search" placeholder="">
-        <datalist id="options">
-            <option value="日本語">
-            <option value="한국어">
-        </datalist>
+        <div class="dropdown">
+            <input type="text" id="search" placeholder="" onfocus="showDropdown()" onkeyup="filterDropdown()">
+            <div id="dropdown-content" class="dropdown-content">
+                <div>日本語</div>
+                <div>한국어</div>
+            </div>
+        </div>
         <br><br>
         <button id="submitBtn">送信</button>
     </div>
 
     <script>
+        var dropdownContent = document.getElementById('dropdown-content');
+        dropdownContent.style.display = 'none';
+
         document.getElementById('submitBtn').addEventListener('click', function() {
             const searchValue = document.getElementById('search').value;
             console.log('Selected value:', searchValue);
@@ -43,8 +47,68 @@
                 window.location.href = 'jp.html';
             } else if (searchValue === '한국어') {
                 window.location.href = 'kr.html';
+            }
+        });
+
+        function showDropdown() {
+            var dropdown = document.getElementById('dropdown-content');
+            dropdown.style.display = "block";
+            dropdown.style.height = "auto";
+            var height = dropdown.scrollHeight + "px";
+            dropdown.style.height = "0px";
+            setTimeout(function() {
+                dropdown.style.height = height;
+            }, 1);
         }
-    })
+
+        function hideDropdown() {
+            var dropdown = document.getElementById('dropdown-content');
+            dropdown.style.height = "0px";
+        }
+
+        function filterDropdown() {
+            var input = document.getElementById('search');
+            var filter = input.value.toLowerCase();
+            var dropdown = document.getElementById('dropdown-content');
+            var divs = dropdown.getElementsByTagName('div');
+
+            var hasMatch = false;
+            for (var i = 0; i < divs.length; i++) {
+                var txtValue = divs[i].textContent || divs[i].innerText;
+                if (txtValue.toLowerCase().indexOf(filter) > -1) {
+                    divs[i].style.display = "";
+                    hasMatch = true;
+                } else {
+                    divs[i].style.display = "none";
+                }
+            }
+
+            if (filter === "" || !hasMatch) {
+                showDropdown();
+            } else {
+                dropdown.style.height = "auto"; 
+                var height = dropdown.scrollHeight + "px";
+                dropdown.style.height = "0px"; 
+                setTimeout(function() {
+                    dropdown.style.height = height; 
+                }, 1);
+            }
+        }
+
+        var options = document.getElementById('dropdown-content').getElementsByTagName('div');
+        for (var i = 0; i < options.length; i++) {
+            options[i].addEventListener('click', function() {
+                document.getElementById('search').value = this.textContent;
+                hideDropdown(); 
+            });
+        }
+
+        document.addEventListener('click', function(event) {
+            var isClickInside = document.querySelector('.dropdown').contains(event.target);
+            if (!isClickInside) {
+                hideDropdown(); 
+            }
+        });
     </script>
 </body>
 </html>

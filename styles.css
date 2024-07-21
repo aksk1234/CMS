@@ -1,3 +1,5 @@
+/* 기존의 CSS 코드는 그대로 유지합니다. */
+
 body {
     margin: 0;
     font-family: serif;
@@ -5,23 +7,46 @@ body {
     color: #fff;
 }
 
-
 h2 {
     font-size: 1.5em;
     color: white;
     text-align: center;
 }
 
+p {
+    line-height: 170%;
+}
+
+#stretch li {
+    position: relative;
+    display: inline-block;
+}
+
+#stretch li::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #fff;
+    transition: width 250ms ease-in-out;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+}
+
+#stretch li:hover::after {
+    width: 100%;
+}
+
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh; /* 최소 높이를 전체 화면 높이로 설정 */
 }
 
 header {
     background-color: #000;
     padding: 50px;
-    text-align: left; /* 로고를 왼쪽 정렬 */
+    text-align: left;
 }
 
 header .logo {
@@ -38,19 +63,19 @@ header .logo {
 
 nav {
     margin-top: 50px;
-    width: 250px; /* 너비를 넓혔습니다 */
+    width: 250px;
     background-color: #000;
     padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end; /* 메뉴를 우정렬로 설정 */
+    align-items: flex-end;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     width: 100%;
-    text-align: right; /* 글씨를 우정렬로 설정 */
+    text-align: right;
 }
 
 nav ul li {
@@ -60,10 +85,6 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
 }
 
 main {
@@ -84,7 +105,7 @@ main section {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     max-width: 600px;
-    margin: 0 auto; /* 갤러리 가운데 정렬 */
+    margin: 0 auto;
 }
 
 .gallery img {
@@ -102,4 +123,29 @@ footer {
     padding: 10px;
     background-color: #111;
     color: #aaa;
+    margin-top: auto; /* footer를 하단으로 밀어냅니다 */
+}
+
+.profile-section {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 200px; /* 원하는 크기로 설정하세요 */
+    height: auto;
+    margin-right: 20px;
+}
+
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-content p {
+    margin: 5px 0;
+    color: #fff; /* 텍스트 색상을 조정하세요 */
+    font-size: 1.2em;
 }

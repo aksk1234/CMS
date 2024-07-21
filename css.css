@@ -18,13 +18,38 @@ h1 {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #fff;
 }
 
-input[type="text"], input[list] {
-    width: 300px;
+input[type="text"] {
+    width: 200px;
     padding: 10px;
     margin-top: 20px;
-    height: 25px;
-    border: none;
-    border-radius: 0;
+    height: 20px; /* 높이 조정 */
+    border: 1px solid #ccc;
     box-sizing: border-box;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.dropdown-content {
+    display: none; /* 초기에는 숨겨져 있습니다. */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    border: 1px solid #ccc;
+    z-index: 1;
+    box-sizing: border-box;
+    overflow: hidden; /* 애니메이션을 위해 숨깁니다. */
+    transition: height 0.3s ease; /* 높이 변화에 따른 애니메이션 설정 */
+}
+
+.dropdown-content div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content div:hover {
+    background-color: #f1f1f1;
+}
