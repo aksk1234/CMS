@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <img src="1.jpg" alt="Profile Image" class="profile-image">
                     <div class="profile-content">
                         <p>地上界に降りてきた落とし神です<br>
-もっともっと、たくさんのハンバーガーを食べられるように今日も頑張ります。<br><br>
+もっともっと、ハンバーガーをいっぱい食べられるように今日も頑張ります。<br><br>
 
 職業: 落とし神<br>
 趣味: 美少女ゲーム、駆け魂捕獲<br>
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     ・放送用、商用利用: 受付中<br>
 
-                    ・commission: 停止中 (8月中再開予定)<br><br>
+                    ・commission: 受付中<br><br>
 
                     <b>::主な制作物::</b><br>
 
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     参考用イラスト(私の絵の中でお好みの画風、デフォルメがあれば参考までに添付してください) :
 <br>
 
-                    アカウント(活動が確認できるアカウント)<br>
+                    アカウント(活動が確認できるアカウント): <br>
                 </section>
                 `;
                 break;

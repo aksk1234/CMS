@@ -28,9 +28,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     <b>::현재 의뢰 접수상태::</b><br>
 
-                    ・방송용,상업용: 접수중<br>
+                    ・방송용, 상업용: 접수중<br>
 
-                    ・커미션: 정지중 (8월중 재개 예정)<br><br>
+                    ・커미션: 접수중<br><br>
 
                     <b>::주요 모집 분야::</b><br>
 
