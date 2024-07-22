@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="styles.css">
     <script src="jsjp.js" defer></script>
     <!-- sound -->
-    <div onclick="play()">
-        <audio id='audio_play' src='click2.mp3'></audio> 
-        <script type="text/javascript"> 
-            function play() { 
-                var audio = document.getElementById('audio_play'); 
-                if (audio.paused) { 
-                    audio.play(); 
-                } else { 
-                    audio.pause(); 
-                    audio.currentTime = 0; 
-                } 
-            } 
-        </script>
-    </div>
+<div onclick="play()">
+    <audio id='audio_play' src='click2.mp3'>
+    </audio> 
+    <script type="text/javascript"> 
+    function play() { 
+        var audio = document.getElementById('audio_play'); 
+        if (audio.paused) { 
+            audio.play(); 
+        }else{ 
+            audio.pause(); 
+            audio.currentTime = 0 
+        } 
+    } 
+    </script>
 </head>
 <body>
     <div class="container">

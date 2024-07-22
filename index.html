@@ -6,20 +6,20 @@
     <title>あのねちゃんねる</title>
     <link type="text/css" rel="stylesheet" href="css.css">
     <script src="js.js"></script>
-    <!-- sound -->
-    <div onclick="play()">
-        <audio id='audio_play' src='click2.mp3'></audio>
-    </div>
+        <!-- sound -->
+<div onclick="play()">
+    <audio id='audio_play' src='click2.mp3'>
+    </audio> 
     <script type="text/javascript"> 
-        function play() { 
-            var audio = document.getElementById('audio_play'); 
-            if (audio.paused) { 
-                audio.play(); 
-            } else { 
-                audio.pause(); 
-                audio.currentTime = 0; 
-            } 
-        }
+    function play() { 
+        var audio = document.getElementById('audio_play'); 
+        if (audio.paused) { 
+            audio.play(); 
+        }else{ 
+            audio.pause(); 
+            audio.currentTime = 0 
+        } 
+    } 
     </script>
 </head>
 <body>
