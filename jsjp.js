@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
             case 'Guideline':
                 content = `
                 <section>
-                    <h2>ガイドライン</h2>
+                    <h2>Guideline</h2>
                     <p>日本語と韓国語以外の対応は難しいです。<br><br>
 
                     <b>::現在のご依頼受付状態::</b><br>
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
             case 'Contact':
                 content = `
                 <section>
-                    <h2>コンタクト</h2>
+                    <h2>Contact</h2>
                     <p>この度はご依頼をご検討頂き誠にありがとうございます。<br><br>
 
                     ・お問い合わせの際は、下のテンプレートをご記入の上、ご連絡をお願いします。<br>

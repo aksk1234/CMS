@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
             case 'Guideline':
                 content = `
                 <section>
-                    <h2>가이드라인</h2>
+                    <h2>Guideline</h2>
                     <p>일본어와 한국어 외의 대응이 어렵습니다.<br><br>
 
                     <b>::현재 의뢰 접수상태::</b><br>
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
             case 'Contact':
                 content = `
                 <section>
-                    <h2>컨택</h2>
+                    <h2>Contact</h2>
                     <p>검토해주셔서 대단히 감사드립니다.<br><br>
 
                     ・문의 시 아래 양식을 참고하여 연락 주시면 검토 하겠습니다.<br>
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
             case 'Commission':
                 content = `
                 <section>
-                <h2>커미션</h2>
+                <h2>Commission</h2>
                     <b>:: 금액 ::</b><br><br><br>
 
                     <b>▶LD 일러스트 (1인 기준)</b><br><br>

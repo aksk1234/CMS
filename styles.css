@@ -121,9 +121,9 @@ main section {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #111;
+    background-color: #000;
     color: #aaa;
-    margin-top: auto; /* footer를 하단으로 밀어냅니다 */
+    margin-top: auto; 
 }
 
 .profile-section {
@@ -139,6 +139,7 @@ footer {
 }
 
 .profile-content {
+    font-size: 0.9em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,4 +149,78 @@ footer {
     margin: 5px 0;
     color: #fff; /* 텍스트 색상을 조정하세요 */
     font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 20px;
+        text-align: center;
+    }
+
+    header .logo {
+        font-size: 2em;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+        margin: 0;
+        padding: 20px;
+    }
+
+    nav {
+        width: 100%;
+        margin-top: 0;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-bottom: 0;
+    }
+
+    main {
+        margin: 20px 0;
+        padding: 10px;
+    }
+
+    .profile-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .profile-content {
+        align-items: center;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 5px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header .logo {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .profile-content p {
+        font-size: 1em;
+    }
 }
