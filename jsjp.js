@@ -72,6 +72,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     <font color="red">*</font>商用利用の有無 :<br>
 
                     <font color="red">*</font>契約書の有無 :<br>
+                    
+                    <font color="red">*</font>描写範囲:<br>
 
                     ファイル形式  :<br>
 

@@ -73,6 +73,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     <font color="red">*</font>계약서 작성 유/무:<br>
 
+                    <font color="red">*</font>묘사범위:<br>
+                    
+
                     파일 형식:<br>
 
                     캔버스 크기:<br>
