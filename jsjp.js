@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     ・放送用、商用利用: 受付中<br>
 
-                    ・commission: 停止中<br><br>
+                    ・commission: 受付中<br><br>
 
                     <b>::主な制作物::</b><br>
 
