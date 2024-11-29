@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     ・방송용, 상업용: 접수 중<br>
 
-                    ・커미션: 정지 중<br><br>
+                    ・커미션: (상시) 접수 중<br><br>
 
                     <b>::주요 모집 분야::</b><br>
 
@@ -115,6 +115,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     ・트러블 방지를 위해 전부 선입금 후 진행 됩니다.<br><br>
 
                     ・작업 기간은 기본 6주입니다.<br><br>
+
+                    ・상시로 접수중일 경우 폼 확인 후 천천히 연락드립니다. (다만 2주 내로 회신이 없을 경우 작성해주신 폼의 오류로 판단 부탁드립니다.)<br><br>
 
                     ・신청은 아래 폼으로 부탁 드립니다. <br>
                     → <a href = "https://forms.gle/kJDxcexyrtHgMBjPA" target = "_blank">https://forms.gle/kJDxcexyrtHgMBjPA</a>
