@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     ・放送用、商用利用: 受付中<br>
 
-                    ・commission: 停止中<br><br>
+                    ・commission: (常時)受付中<br><br>
 
                     <b>::主な制作物::</b><br>
 
@@ -115,6 +115,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     ・トラブル防止のために全額先払いをお願いしております。<br><br>
 
                     ・作業期間は基本6週間となります。<br><br>
+
+                    ・常時受付中の場合、フォームの確認後、ゆっくりご連絡いたします。(ただし、2週間以内に返信がない場合は、作成いただいたフォームにエラーとがあったものと見なしてください。)
+<br><br>
 
                     ・リクエストをご希望の方は下のフォームから<br>
                     → <a href = "https://forms.gle/D29xp3fSNXbcKwFN7" target = "_blank">https://forms.gle/D29xp3fSNXbcKwFN7</a>
