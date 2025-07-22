@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     ・방송용, 상업용: 접수 중<br>
 
-                    ・커미션: 상시접수 중<br><br>
+                    ・커미션: 정지 중<br><br>
 
                     <b>::주요 모집 분야::</b><br>
 
