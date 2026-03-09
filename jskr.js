@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     ・SD 일러스트 15000원<br><br><br>
 
                     
-                    <b> ::이용 약관:: <b><br><br>
+                    <b> ::이용 약관:: </b><br><br>
                     ・기본적으로 작업한 일러스트의 저작권은 저에게 있습니다.<br>
 ・자작발언, 2차배포를 금지합니다.<br>
 ・허용하지 않은 리터칭과 2차가공을 금지합니다.<br>
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
 ・AI 학습을 금지합니다.<br>
 ・위 이용약관을 지키지 않아 발생하는 문제에 대한 모든 책임은 의뢰인 스스로에게 있습니다.<br><br><br>
 
-::안내사항:: <br><br>
+<b>::안내사항:: </b><br><br>
 
 ・기재 된 금액은 전부 최소 금액 기준입니다.<br>
 ・신청서 내용, 납품 기한 등 신청서 내용에 따라 금액은 변동 될 수 있습니다.<br>
@@ -133,18 +133,17 @@ document.addEventListener('DOMContentLoaded', function () {
 ・상시로 접수중일 경우 폼 확인 후 천천히 연락드립니다. (다만 2주 내로 회신이 없을 경우 작성해주신 폼의 오류로 판단 부탁드립니다.)<br>
 ・전체적으로 색보정을 강하게 사용하는 편입니다, 색상 변화에 예민하신 분들은 참고 부탁 드립니다.<br><br><br>
 
-<b><Commission 문의 템플릿><b><br>
-메일 제목은 <Commission 신청>으로 통일 부탁드립니다.<br><br>
+<b>::Commission 문의 템플릿::</b><br>
+<U><font color="red">*</font> 표시문항은 필수 작성문항입니다.</U><br><br>
+메일 제목은 [Commission 신청]으로 통일 부탁드립니다.<br><br>
 
-  <font color="red">*</font>성함(입금자 명의와 일치할 시 닉네임 표기 가능): <br>
-  <font color="red">*</font>신청서 본문(전체적인 신청 내용,이미지 자료,구도 등 작업에 필요한 자료를 기입 부탁드립니다. 링크OK):<br>
+<font color="red">*</font>성함(입금자 명의와 일치할 시 닉네임 표기 가능): <br>
+<font color="red">*</font>신청서 본문(전체적인 신청 내용,이미지 자료,구도 등 작업에 필요한 자료를 기입 부탁드립니다. 링크OK):<br>
 원하는 납품 기한(기본 작업기한보다 빠른 납품을 원할 시 기재 부탁드립니다. 추가 금액 발생합니다.):<br>
 원하는 파일 형식(미기재 시 기본 PNG 파일로 전달 드립니다.):<br>
 배경 투명화 필요 유무:<br>
 참고 일러스트 첨부(제 일러스트 중 원하시는 화풍,데포르메의 일러스트가 있다면 참고용으로 첨부 부탁드립니다.):<br>
 기타 요청사항:<br>
-
-    <U><font color="red">*</font> 표시문항은 필수 작성문항입니다.</U><br><br>
                 </section>
                 `;
                 break;
@@ -162,6 +161,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
 
 
 
