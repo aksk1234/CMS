@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     <b>::Commission 문의 템플릿::</b><br>
 <U><font color="red">*</font> 표시문항은 필수 작성문항입니다.</U><br>
-메일 제목은 [Commission 신청]으로 통일 부탁드립니다.<br><br>
+<U>메일 제목은 [Commission 신청]으로 통일 부탁드립니다.</U><br><br>
 
 ・<font color="red">*</font>성함(입금자 명의와 일치할 시 닉네임 표기 가능): <br>
 ・<font color="red">*</font>신청서 본문(전체적인 신청 내용,이미지 자료,구도 등 작업에 필요한 자료를 기입 부탁드립니다. 링크OK):<br>
@@ -162,6 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
 
 
 
