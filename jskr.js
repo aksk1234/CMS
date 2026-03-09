@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 content = `
                 <section>
                     <h2>Contact</h2>
+                    
                     <p>검토해주셔서 대단히 감사드립니다.<br><br>
 
                     ・문의 시 아래 양식을 참고하여 연락 주시면 검토 하겠습니다.<br>
@@ -90,6 +91,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 content = `
                 <section>
                 <h2>Commission</h2>
+                
+                    <b>::연락처::</b>
+                    <p>- anxne0002@gmail.com</p>
+                    
                     <b>:: 금액 ::</b><br><br><br>
 
                     <b>▶LD 일러스트 (1인 기준)</b><br><br>
@@ -137,6 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
 
 
 
