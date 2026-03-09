@@ -94,11 +94,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     <b>▶LD 일러스트 (1인 기준)</b><br><br>
 
-                    ・어깨까지~ 80000원~<br>
+                    <t1>・어깨까지~ 80000원~<br>
 
                     ・허벅지까지~ 150000원~<br>
 
-                    ・전신 200000원~<br><br>
+                    ・전신 200000원~<br><br> </t1>
 
                     <b>▶그 외 추가 옵션</b><br><br>
 
@@ -137,3 +137,4 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
