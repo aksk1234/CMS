@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
 <U>メールの件名は「Commission申し込み」に統一してください。</U><br><br>
 
 ・<font color="red">*</font>ご氏名(入金者名義と一致する場合、ニックネーム表記も可能です。): <br>
-・<font color="red">*</font>*リクエスト指示(全体的なリクエスト内容、キャラクター資料、構図など作業に必要な内容をご記入ください。):<br>
+・<font color="red">*</font>リクエスト指示(全体的なリクエスト内容、キャラクター資料、構図など作業に必要な内容をご記入ください。):<br>
 ・ご希望の納品(基本納品より早い納品をご希望の場合はご記入ください。追加料金発生):<br>
 ・ご希望のファイル形式(未記入の場合、基本PNG形式で納品します。):<br>
 ・背景透過の有無:<br>
@@ -160,6 +160,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
 
 
 
