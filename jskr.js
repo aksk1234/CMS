@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function () {
 ・기타 요청사항:<br><br><br>
                     
                     
-                    <b>:: 금액 ::</b><br><br><br>
+                    <b>:: 금액 ::</b><br><br>
 
                     <b>▶LD 일러스트 (1인 기준)</b><br><br>
 
@@ -162,6 +162,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
 
 
 
