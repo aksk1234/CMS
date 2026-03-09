@@ -13,11 +13,9 @@ h2 {
     text-align: center;
 }
 
-t1 { font-size: 1em;
-    color: white;}
-
 p {
     line-height: 170%;
+    font-size: 0.8em;
 }
 
 #stretch li {
@@ -228,3 +226,4 @@ footer {
     }
 
 }
+
