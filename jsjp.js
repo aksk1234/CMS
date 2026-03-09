@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     ・放送用、商用利用: 受付中<br>
 
-                    ・commission: 停止中<br><br>
+                    ・commission: 受付中<br><br>
 
                     <b>::主な制作物::</b><br>
 
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     ・SDイラスト 1500円<br><br><br>
         
                     
-                    <b> ::利用規約:: </b><br><br>
+                    <b> ::利用規約:: </b><br>
                     ・  基本的に制作したイラストの著作権は私にあります。<br>
 ・自作発言、二次配布を禁止します。<br>
 ・許可されていないリタッチや二次加工を禁止します。<br>
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function () {
 ・AI学習を禁止します。<br>
 ・上記利用規約を守らずに発生する全ての問題の責任は依頼者自身にあります。<br><br><br>
 
-<b>::作成前必読:: </b><br><br>
+<b>::作成前必読:: </b><br>
 
 ・取引は全てpaypalで行われます。<br>
 ・色補正を使用しているため、私の絵柄によって色の変化がある場合があります、色の変化に敏感な方はご注意ください。<br>
@@ -160,5 +160,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
 
 
