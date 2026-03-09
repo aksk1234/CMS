@@ -93,7 +93,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 <h2>Commission</h2>
                 
                     <b>::연락처::</b>
-                    <p>- anxne0002@gmail.com</p>
+                    <p>- anxne0002@gmail.com</p><br>
+                    
                     
                     <b>:: 금액 ::</b><br><br><br>
 
@@ -107,7 +108,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                     <b>▶그 외 추가 옵션</b><br><br>
 
-                    ・캐릭터 디자인 200000원~<br>
+                    <p>・캐릭터 디자인 200000원~<br>
 
                     ・SD 일러스트 15000원<br><br><br>
 
@@ -124,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     ・상시로 접수중일 경우 폼 확인 후 천천히 연락드립니다. (다만 2주 내로 회신이 없을 경우 작성해주신 폼의 오류로 판단 부탁드립니다.)<br><br>
 
                     ・신청은 아래 폼으로 부탁 드립니다. <br>
-                    → <a href = "https://forms.gle/kJDxcexyrtHgMBjPA" target = "_blank">https://forms.gle/kJDxcexyrtHgMBjPA</a>
+                    → <a href = "https://forms.gle/kJDxcexyrtHgMBjPA" target = "_blank">https://forms.gle/kJDxcexyrtHgMBjPA</a></p>
                 </section>
                 `;
                 break;
@@ -142,6 +143,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
 
 
 
