@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function () {
 ・AI学習を禁止します。<br>
 ・上記利用規約を守らずに発生する全ての問題の責任は依頼者自身にあります。<br><br><br>
 
-<b>::안내사항:: </b><br><br>
+<b>::作成前必読:: </b><br><br>
 
 ・取引は全てpaypalで行われます。<br>
 ・色補正を使用しているため、私の絵柄によって色の変化がある場合があります、色の変化に敏感な方はご注意ください。<br>
@@ -160,4 +160,5 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
 
