@@ -93,18 +93,18 @@ document.addEventListener('DOMContentLoaded', function () {
                 <h2>Commission</h2>
                 
                     <b>::연락처::</b>
-                    <p>- anxne0002@gmail.com</p><br>
+                    - anxne0002@gmail.com</p>
                     
                     
                     <b>:: 금액 ::</b><br><br><br>
 
                     <b>▶LD 일러스트 (1인 기준)</b><br><br>
 
-                    <p>・어깨까지~ 80000원~<br>
+                    ・어깨까지~ 80000원~<br>
 
                     ・허벅지까지~ 150000원~<br>
 
-                    ・전신 200000원~<br><br> </p>
+                    ・전신 200000원~<br><br>
 
                     <b>▶그 외 추가 옵션</b><br><br>
 
@@ -143,6 +143,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
 
 
 
